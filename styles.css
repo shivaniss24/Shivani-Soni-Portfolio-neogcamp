@@ -12,6 +12,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin:0px;
 }
+/**spaces**/
+.margin-md
+{
+    padding: 2rem;
+}
 
 hr {
     margin: 2rem 0rem;
@@ -31,7 +36,7 @@ hr {
 
 /** Links**/
 .link {
-    text-decoration: none;
+    text-decoration:none ;
     padding: 0.5rem 1rem;
 
 }
@@ -93,6 +98,7 @@ hr {
 .hero {
     padding: 2rem;
     text-align: center;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -131,6 +137,10 @@ background-color: var(--off-white);
 .footer .links
 {
     color:white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 .footer ul
 {
