@@ -1,12 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mukta:wght@400;700&display=swap');
 
 :root {
     --primary-color: #6b21a8;
     --dark-gray: #687280;
     --off-white:#f3f4f6;
-
+    --dark-maroon:#c026d3;
 }
 
+.intro
+{
+    text-align: center;
+    width: 75%;
+    font-size: 18px;
+    margin: 3rem auto;
+}
+.greetings
+{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.para{
+    margin-bottom: 2rem;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -26,27 +41,44 @@ hr {
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
-
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2rem auto;
 }
+    
+
+
 
 .container-center {
     max-width: 600px;
-    margin: auto;
+    margin: 0 auto;
+    padding:2rem;
 }
 
 /** Links**/
 .link {
     text-decoration:none ;
     padding: 0.5rem 1rem;
+    
 
 }
+
 
 .primary-link {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    
 
 }
+
 
 .secondary-link {
     color: var(--primary-color);
@@ -69,7 +101,7 @@ hr {
 /**navigation**/
 
 .navigation {
-    background-color: var(--primary-color);
+    background-color: var(--dark-maroon);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -108,6 +140,7 @@ hr {
 
 }
 
+
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
     text-align: center;
@@ -116,14 +149,18 @@ hr {
 /**section**/
 .section{
     padding:2rem;
+    
 }
 .section h1{
     text-align: center;
-    padding: 2rem;
+    padding: 5rem;
 }
 .ow
 {
+text-align: center;
 background-color: var(--off-white);
+margin: auto;
+
 }
 /**footer**/
 .footer
@@ -145,4 +182,98 @@ background-color: var(--off-white);
 .footer ul
 {
     padding-inline-start: 0px;
+}
+.project-image
+{
+    max-width: 20px;
+    display: block;
+    margin: auto;   
+}
+.clickme
+{
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: 20px;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    background: white;
+    transition: all 0.3s ease-out;
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 30%);
+
+
+}
+
+.projects
+{
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 5rem;
+    padding-right: 2rem;
+}
+div{
+    display: block;
+}
+.blogs
+{
+    padding-left: 2rem;
+    padding-bottom: 5rem;
+    margin-top: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+.blog-heading
+{
+    text-align: center;
+    color: #6b21a8;
+    padding: 2rem;
+}
+a:hover
+{
+    background-color:black;
+}
+.images
+{
+ max-width: 200px;   
+}
+.blog-container
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2rem auto;
+}
+.blog-title
+{
+    color: var(--dark-maroon);
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.blog-content
+{
+    font-size: 16px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+article{
+    display: block;
+}
+.container-case
+{
+    width: auto;
 }
