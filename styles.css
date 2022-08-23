@@ -235,7 +235,9 @@ div {
 }
 
 a:hover {
-    background-color: black;
+    background-color:grey;
+    padding: 0.5rem;
+    border-radius: 1rem;
 }
 
 .images {
