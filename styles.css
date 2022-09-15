@@ -252,6 +252,33 @@ img{
     border: 1px solid black;
 }
 
+.hero
+{
+    text-align: center;
+    font-family: var(--font-one);
+}
+.project-color
+{
+    color: red;
+    opacity: 0.90;
+}
+.hero .hero-heading
+{
+    padding: 1rem;
+    color: black;
+    opacity: 0.90;
+}
+.project-list
+{
+   font-family: var(--font-two);
+   display: flex;
+}
+.project-list .container-center .margin-md
+{
+    
+
+}
+
 
 
 
