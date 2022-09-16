@@ -13,6 +13,7 @@ body{
 /* nav-bar */
 .nav-bar
 {
+    font-family: var(--font-one);
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -35,7 +36,10 @@ a:hover
     transition: all 500ms;
     font-size: 20px;
 }
-
+h2
+{
+    font-family: var(--font-two);
+}
 a:link{
     text-decoration: none;
 }
@@ -197,6 +201,7 @@ img{
 }
 
 .project-container{
+    font-family: var(--font-two);
     text-align: center;
     display:flex;
     flex-direction: column;
@@ -206,13 +211,16 @@ img{
 
 .project-title{
     color: var(--color-one);
+    font-family: var(--font-two);
 }
 
 .project-content{
+    font-family: var(--font-two);
     font-size: 16px;
 }
 
 .container{
+    font-family: var(--font-two);
     margin: 0 auto;
     margin-top: 5rem;
     display: flex;
