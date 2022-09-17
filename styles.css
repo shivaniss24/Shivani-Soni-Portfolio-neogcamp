@@ -84,7 +84,14 @@ hr{
     color: black;
     opacity: 0.90;
 }
-
+/* Blogs images */
+.image
+{
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+    border-radius: 1rem;
+}
 /* header */
 
 img{
